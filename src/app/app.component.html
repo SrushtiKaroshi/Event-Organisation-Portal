@@ -1,0 +1,45 @@
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <a class="navbar-brand" href="#"></a>  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/aboutus" routerLinkActive="active">EventHub </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/events" routerLinkActive="active">Global Events </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/special" routerLinkActive="active">Local Events</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/project" routerLinkActive="active">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/book-list" routerLinkActive="active">List of Prerequisite</a>
+      </li>
+
+    </ul>
+
+    <ul class="navbar-nav">
+        <a class="nav-link ln" *ngIf="!_authService.loggedIn()" routerLink="/login" routerLinkActive="active">Login to EventHub</a>
+        <a class="nav-link lo" style="cursor:pointer" *ngIf="_authService.loggedIn()" (click)="_authService.logoutUser()">Logout</a>        
+    </ul>
+
+    
+    
+  </div>
+</nav>  
+ 
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
+

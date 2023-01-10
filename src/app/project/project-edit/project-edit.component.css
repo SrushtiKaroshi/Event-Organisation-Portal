@@ -1,0 +1,23 @@
+input.ng-invalid.ng-touched,
+textarea.ng-invalid.ng-touched {
+  border: 1px solid;
+}
+
+.btnSave{
+  background-color: rgb(92,10,92);
+  color: white;
+}
+.btn{
+margin: 8px;
+}
+
+form{
+  margin-top: 20px;
+  margin-left: 150px;
+
+}
+
+
+.btnAdd{
+   background-color:#ffaa3b;
+}

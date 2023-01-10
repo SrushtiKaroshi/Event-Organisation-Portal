@@ -1,0 +1,21 @@
+.navbar{
+    background-color: rgb(92,10,92);
+}
+.lo,
+.ln{
+    line-height: 1.4rem !important;
+}
+.lo,
+.ln{
+    background-color: #8aca7a;
+    padding: 5px !important;
+    border-radius: 4px;
+}
+
+.lo:hover,
+.ln:hover{
+    background-color: #ffaa3b;
+    padding: 5px !important;
+    border-radius: 4px;
+    color: rgb(92,10,92) !important;
+}

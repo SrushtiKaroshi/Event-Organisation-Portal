@@ -1,0 +1,16 @@
+.list-group-item.active{
+    z-index: 2;
+    color: rgb(92,10,92);
+    background-color: #8ACA7A;
+    border: 0;
+}
+h4{
+    color: rgb(92,10,92);
+}
+p{
+    color: #41434c;
+
+}
+a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

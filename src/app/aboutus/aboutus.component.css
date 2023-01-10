@@ -1,0 +1,96 @@
+* {
+    margin: 10px;
+    padding:10px;
+    box-sizing: border-box;
+  }
+  
+  body {
+    min-width: 100%;
+    display: block;
+    min-height: 100vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .banner {
+    width: 100%;
+  }
+  .illustration {
+    text-align: center;
+  }
+  
+  p {
+    font-size: 19px;
+    color: #41434c;
+  }
+  h3 {
+    color: rgb(92, 10, 92);
+    margin-top: 20px;
+    text-align: center;
+  }
+  #high {
+    color: rgb(92, 10, 92);
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  h4 {
+    text-align: center;
+    color: rgb(92, 10, 92);
+    font-weight: bold;
+    margin-top: 100px;
+  }
+  ul {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .w1 {
+    grid-template-columns: 20% 20% 20%;
+    padding: 50px;
+  }
+  .fas {
+    font-size: 60px;
+    color: #ffaa3b;
+    margin: 5px;
+  }
+  .text {
+    color: #41434c;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .main {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    margin-left: 150px;
+    text-align: center;
+    grid-gap: 2em;
+  }
+  
+  h5 {
+    color: rgb(92, 10, 92);
+    font-weight: bold;
+  }
+  
+  .feedback {
+    display: flex;
+  }
+  
+  .fa-comments {
+    font-size: 35px;
+  }
+  
+  .logo {
+    text-align: center;
+  }
+  
+  #excel {
+    transition: transform 0.3s;
+  }
+  
+  #excel:hover {
+    transform: scale(2);
+  }
+  
